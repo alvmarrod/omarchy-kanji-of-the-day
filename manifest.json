@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.alvmarrod.kanji-of-the-day",
+  "name": "Kanji of the Day",
+  "version": "1.0.0",
+  "author": "alvmarrod",
+  "homepage": "https://github.com/alvmarrod/omarchy-kanji-of-the-day",
+  "license": "MIT",
+  "description": "A deterministic daily kanji from Jisho in the Omarchy bar: a meishi card with readings, an example word, a furigana sentence and a current-year calendar.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Kanji of the Day",
+    "description": "Today's kanji; click for readings, an example and a calendar",
+    "category": "Info",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}
